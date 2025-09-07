@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 12px;
+  
+  /* Light Theme Colors */
+  --background: hsl(330, 50%, 98%);
+  --foreground: hsl(330, 15%, 15%);
+  --card: hsl(330, 50%, 96%);
+  --card-foreground: hsl(330, 15%, 20%);
+  --popover: hsl(330, 50%, 96%);
+  --popover-foreground: hsl(330, 15%, 15%);
+  --primary: hsl(330, 70%, 70%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(240, 70%, 85%);
+  --secondary-foreground: hsl(240, 15%, 20%);
+  --muted: hsl(330, 30%, 92%);
+  --muted-foreground: hsl(330, 15%, 45%);
+  --accent: hsl(280, 70%, 80%);
+  --accent-foreground: hsl(280, 15%, 20%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(330, 30%, 92%);
+  --input: hsl(330, 30%, 94%);
+  --ring: hsl(330, 70%, 70%);
+  
+  /* Kawaii Colors */
+  --kawaii-pink: hsl(330, 70%, 80%);
+  --kawaii-blue: hsl(200, 70%, 80%);
+  --kawaii-purple: hsl(280, 70%, 85%);
+  --kawaii-yellow: hsl(50, 80%, 85%);
+  
+  /* Chart Colors */
+  --chart-1: hsl(330, 70%, 70%);
+  --chart-2: hsl(200, 70%, 70%);
+  --chart-3: hsl(280, 70%, 70%);
+  --chart-4: hsl(50, 80%, 70%);
+  --chart-5: hsl(120, 70%, 70%);
+  
+  /* Sidebar Colors */
+  --sidebar: hsl(330, 50%, 96%);
+  --sidebar-foreground: hsl(330, 15%, 20%);
+  --sidebar-primary: hsl(330, 70%, 70%);
+  --sidebar-primary-foreground: hsl(0, 0%, 100%);
+  --sidebar-accent: hsl(280, 70%, 80%);
+  --sidebar-accent-foreground: hsl(280, 15%, 20%);
+  --sidebar-border: hsl(330, 30%, 88%);
+  --sidebar-ring: hsl(330, 70%, 70%);
+  
+  /* Fonts */
+  --font-sans: 'Poppins', sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  /* Shadows */
+  --shadow-2xs: 0px 1px 2px 0px hsl(330, 70%, 70%, 0.05);
+  --shadow-xs: 0px 1px 2px 0px hsl(330, 70%, 70%, 0.05);
+  --shadow-sm: 0px 1px 3px 0px hsl(330, 70%, 70%, 0.1), 0px 1px 2px -1px hsl(330, 70%, 70%, 0.1);
+  --shadow: 0px 1px 3px 0px hsl(330, 70%, 70%, 0.1), 0px 1px 2px -1px hsl(330, 70%, 70%, 0.1);
+  --shadow-md: 0px 4px 6px -1px hsl(330, 70%, 70%, 0.1), 0px 2px 4px -2px hsl(330, 70%, 70%, 0.1);
+  --shadow-lg: 0px 10px 15px -3px hsl(330, 70%, 70%, 0.1), 0px 4px 6px -4px hsl(330, 70%, 70%, 0.1);
+  --shadow-xl: 0px 20px 25px -5px hsl(330, 70%, 70%, 0.1), 0px 8px 10px -6px hsl(330, 70%, 70%, 0.1);
+  --shadow-2xl: 0px 25px 50px -12px hsl(330, 70%, 70%, 0.25);
+  
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+}
+
+.dark {
+  --background: hsl(260, 30%, 8%);
+  --foreground: hsl(330, 20%, 90%);
+  --card: hsl(260, 30%, 12%);
+  --card-foreground: hsl(330, 20%, 85%);
+  --popover: hsl(260, 30%, 12%);
+  --popover-foreground: hsl(330, 20%, 90%);
+  --primary: hsl(330, 80%, 65%);
+  --primary-foreground: hsl(260, 30%, 8%);
+  --secondary: hsl(240, 80%, 70%);
+  --secondary-foreground: hsl(260, 30%, 8%);
+  --muted: hsl(260, 30%, 15%);
+  --muted-foreground: hsl(330, 20%, 65%);
+  --accent: hsl(280, 80%, 70%);
+  --accent-foreground: hsl(260, 30%, 8%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(260, 30%, 25%);
+  --input: hsl(260, 30%, 18%);
+  --ring: hsl(330, 80%, 65%);
+  
+  /* Kawaii Colors Dark */
+  --kawaii-pink: hsl(330, 80%, 70%);
+  --kawaii-blue: hsl(200, 80%, 70%);
+  --kawaii-purple: hsl(280, 80%, 75%);
+  --kawaii-yellow: hsl(50, 90%, 75%);
+  
+  /* Sidebar Colors Dark */
+  --sidebar: hsl(260, 30%, 12%);
+  --sidebar-foreground: hsl(330, 20%, 85%);
+  --sidebar-primary: hsl(330, 80%, 65%);
+  --sidebar-primary-foreground: hsl(260, 30%, 8%);
+  --sidebar-accent: hsl(280, 80%, 70%);
+  --sidebar-accent-foreground: hsl(260, 30%, 8%);
+  --sidebar-border: hsl(260, 30%, 20%);
+  --sidebar-ring: hsl(330, 80%, 65%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: var(--font-sans);
+    cursor: url('/cursor.gif'), auto;
+  }
+  
+  button, a, [role="button"] {
+    cursor: url('/cursor.gif'), pointer;
+  }
+}
+
+@layer utilities {
+  .gradient-bg {
+    background: linear-gradient(135deg, var(--kawaii-pink), var(--kawaii-blue), var(--kawaii-purple));
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, var(--kawaii-pink), var(--kawaii-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .kawaii-shadow {
+    box-shadow: 0 8px 32px hsl(330, 70%, 70%, 0.3);
+  }
+  
+  .dark .kawaii-shadow {
+    box-shadow: 0 8px 32px hsl(330, 80%, 65%, 0.2);
+  }
+  
+  .cloud {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    position: relative;
+  }
+  
+  .cloud:before {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+  }
+  
+  .dark .cloud {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .dark .cloud:before {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-bounce-slow {
+    animation: bounce 2s infinite;
+  }
+  
+  .animate-pulse-soft {
+    animation: pulse 3s ease-in-out infinite;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+  }
+}
+
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0px); 
+  }
+  50% { 
+    transform: translateY(-10px); 
+  }
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(20px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(50px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+.star {
+  position: absolute;
+  color: var(--kawaii-yellow);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.hidden-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.visible-section {
+  opacity: 1;
+  transform: translateY(0);
+}

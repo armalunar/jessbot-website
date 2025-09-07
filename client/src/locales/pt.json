@@ -1,0 +1,92 @@
+{
+  "hero": {
+    "title": "Conheça a Jess BOT!",
+    "subtitle": "Sua assistente fofa para conversões de arquivos no Discord",
+    "discord": "Adicionar ao Discord",
+    "demo": "Ver Demo"
+  },
+  "features": {
+    "title": "O que a Jess BOT pode fazer?",
+    "subtitle": "Descubra todas as funcionalidades incríveis que tornam a Jess BOT sua melhor amiga no Discord!",
+    "conversions": "Conversões",
+    "video_gif": "Vídeo para GIF",
+    "video_gif_desc": "Converta vídeos em GIFs otimizados automaticamente",
+    "format_conversion": "Conversão de Formato",
+    "format_conversion_desc": "Mude entre PNG, JPG, WEBP e muito mais",
+    "banner_creation": "Banner Discord",
+    "banner_creation_desc": "Crie banners personalizados para perfil/servidor",
+    "advanced": "Configurações Avançadas",
+    "optimization": "Otimização",
+    "optimization_desc": "Reduza tamanho mantendo qualidade",
+    "quality": "Qualidade",
+    "quality_desc": "Baixa, Média, Alta, Ultra",
+    "effects": "Efeitos",
+    "effects_desc": "Desfoque, Gradiente ou Simples",
+    "fps": "FPS Control",
+    "fps_desc": "5-30 para suavidade dos GIFs",
+    "formats": "Formatos Suportados",
+    "input_formats": "Entrada:",
+    "output_formats": "Saída:",
+    "size_limit": "Até 50MB por arquivo"
+  },
+  "legal": {
+    "title": "Termos e Privacidade",
+    "terms": "Termos de Uso",
+    "privacy": "Política de Privacidade",
+    "terms_title": "Termos de Uso",
+    "terms_intro": "Ao usar a Jess BOT, você concorda com os seguintes termos e condições de uso.",
+    "terms_content": {
+      "acceptance": "1. Aceitação dos Termos",
+      "acceptance_desc": "Ao adicionar a Jess BOT ao seu servidor Discord ou usar nossos serviços, você concorda em estar vinculado a estes termos.",
+      "service": "2. Descrição do Serviço",
+      "service_desc": "A Jess BOT é um bot do Discord que oferece serviços de conversão de arquivos, incluindo conversão de vídeo para GIF, otimização de imagens e criação de banners.",
+      "usage": "3. Uso Permitido",
+      "usage_desc": "Você pode usar a Jess BOT para converter arquivos pessoais respeitando os limites de tamanho (até 50MB) e formatos suportados.",
+      "prohibited": "4. Uso Proibido",
+      "prohibited_desc": "É proibido usar o bot para processar conteúdo ilegal, prejudicial, ofensivo ou que viole direitos autorais de terceiros.",
+      "limitations": "5. Limitações de Responsabilidade",
+      "limitations_desc": "A Jess BOT é fornecida 'como está'. Não garantimos disponibilidade 100% do serviço e não nos responsabilizamos por perdas de dados.",
+      "changes": "6. Alterações dos Termos",
+      "changes_desc": "Reservamos o direito de modificar estes termos a qualquer momento. Alterações significativas serão comunicadas aos usuários."
+    },
+    "privacy_title": "Política de Privacidade",
+    "privacy_intro": "Sua privacidade é importante para nós. Esta política explica como coletamos e usamos suas informações.",
+    "privacy_content": {
+      "collection": "1. Coleta de Informações",
+      "collection_desc": "Coletamos apenas informações necessárias para o funcionamento do bot: ID do usuário, arquivos enviados para conversão e configurações de uso.",
+      "usage": "2. Uso das Informações",
+      "usage_desc": "Suas informações são usadas exclusivamente para processar conversões de arquivos e melhorar nossos serviços.",
+      "storage": "3. Armazenamento",
+      "storage_desc": "Arquivos enviados são processados temporariamente e excluídos automaticamente após 24 horas. Não armazenamos conteúdo permanentemente.",
+      "sharing": "4. Compartilhamento",
+      "sharing_desc": "Não compartilhamos, vendemos ou distribuímos suas informações pessoais com terceiros, exceto quando exigido por lei.",
+      "security": "5. Segurança",
+      "security_desc": "Implementamos medidas de segurança adequadas para proteger suas informações contra acesso não autorizado.",
+      "rights": "6. Seus Direitos",
+      "rights_desc": "Você pode solicitar a exclusão de suas informações ou parar de usar o bot a qualquer momento removendo-o do seu servidor.",
+      "contact": "7. Contato",
+      "contact_desc": "Para dúvidas sobre esta política, entre em contato através do nosso servidor Discord oficial."
+    }
+  },
+  "demo": {
+    "title": "Como funciona?",
+    "subtitle": "Veja como é simples usar a Jess BOT!",
+    "start": "Iniciar Demo",
+    "stop": "Parar Demo",
+    "step1": {
+      "title": "1. Enviar Arquivo",
+      "desc": "Envie seu vídeo/imagem"
+    },
+    "step2": {
+      "title": "2. Processamento",
+      "desc": "Jess BOT converte magicamente"
+    },
+    "step3": {
+      "title": "3. Resultado",
+      "desc": "Receba seu arquivo otimizado"
+    }
+  },
+  "footer": {
+    "description": "Feito com 💖 para tornar suas conversões mais fáceis e fofas!"
+  }
+}

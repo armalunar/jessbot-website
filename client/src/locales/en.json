@@ -1,0 +1,92 @@
+{
+  "hero": {
+    "title": "Meet Jess BOT!",
+    "subtitle": "Your cute assistant for file conversions on Discord",
+    "discord": "Add to Discord",
+    "demo": "View Demo"
+  },
+  "features": {
+    "title": "What can Jess BOT do?",
+    "subtitle": "Discover all the amazing features that make Jess BOT your best friend on Discord!",
+    "conversions": "Conversions",
+    "video_gif": "Video to GIF",
+    "video_gif_desc": "Convert videos to optimized GIFs automatically",
+    "format_conversion": "Format Conversion",
+    "format_conversion_desc": "Switch between PNG, JPG, WEBP and much more",
+    "banner_creation": "Discord Banner",
+    "banner_creation_desc": "Create custom banners for profile/server",
+    "advanced": "Advanced Settings",
+    "optimization": "Optimization",
+    "optimization_desc": "Reduce size while maintaining quality",
+    "quality": "Quality",
+    "quality_desc": "Low, Medium, High, Ultra",
+    "effects": "Effects",
+    "effects_desc": "Blur, Gradient or Simple",
+    "fps": "FPS Control",
+    "fps_desc": "5-30 for GIF smoothness",
+    "formats": "Supported Formats",
+    "input_formats": "Input:",
+    "output_formats": "Output:",
+    "size_limit": "Up to 50MB per file"
+  },
+  "legal": {
+    "title": "Terms and Privacy",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "terms_title": "Terms of Use",
+    "terms_intro": "By using Jess BOT, you agree to the following terms and conditions of use.",
+    "terms_content": {
+      "acceptance": "1. Acceptance of Terms",
+      "acceptance_desc": "By adding Jess BOT to your Discord server or using our services, you agree to be bound by these terms.",
+      "service": "2. Service Description",
+      "service_desc": "Jess BOT is a Discord bot that provides file conversion services, including video to GIF conversion, image optimization, and banner creation.",
+      "usage": "3. Permitted Use",
+      "usage_desc": "You may use Jess BOT to convert personal files respecting size limits (up to 50MB) and supported formats.",
+      "prohibited": "4. Prohibited Use",
+      "prohibited_desc": "It is prohibited to use the bot to process illegal, harmful, offensive content or content that violates third-party copyrights.",
+      "limitations": "5. Limitation of Liability",
+      "limitations_desc": "Jess BOT is provided 'as is'. We do not guarantee 100% service availability and are not responsible for data loss.",
+      "changes": "6. Terms Changes",
+      "changes_desc": "We reserve the right to modify these terms at any time. Significant changes will be communicated to users."
+    },
+    "privacy_title": "Privacy Policy",
+    "privacy_intro": "Your privacy is important to us. This policy explains how we collect and use your information.",
+    "privacy_content": {
+      "collection": "1. Information Collection",
+      "collection_desc": "We collect only information necessary for bot operation: user ID, files sent for conversion, and usage settings.",
+      "usage": "2. Information Usage",
+      "usage_desc": "Your information is used exclusively to process file conversions and improve our services.",
+      "storage": "3. Storage",
+      "storage_desc": "Uploaded files are processed temporarily and automatically deleted after 24 hours. We do not store content permanently.",
+      "sharing": "4. Sharing",
+      "sharing_desc": "We do not share, sell, or distribute your personal information with third parties, except when required by law.",
+      "security": "5. Security",
+      "security_desc": "We implement adequate security measures to protect your information against unauthorized access.",
+      "rights": "6. Your Rights",
+      "rights_desc": "You can request deletion of your information or stop using the bot at any time by removing it from your server.",
+      "contact": "7. Contact",
+      "contact_desc": "For questions about this policy, contact us through our official Discord server."
+    }
+  },
+  "demo": {
+    "title": "How it works?",
+    "subtitle": "See how simple it is to use Jess BOT!",
+    "start": "Start Demo",
+    "stop": "Stop Demo",
+    "step1": {
+      "title": "1. Upload File",
+      "desc": "Send your video/image"
+    },
+    "step2": {
+      "title": "2. Processing",
+      "desc": "Jess BOT converts magically"
+    },
+    "step3": {
+      "title": "3. Result",
+      "desc": "Get your optimized file"
+    }
+  },
+  "footer": {
+    "description": "Made with 💖 to make your conversions easier and cuter!"
+  }
+}
